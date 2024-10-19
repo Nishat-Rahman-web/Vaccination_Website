@@ -1,0 +1,23 @@
+.mainMenu{
+  @apply pt-[41px] px-[70px] absolute w-full hidden lg:block;
+}
+
+.menuRow {
+  @apply flex justify-between items-center 
+} 
+
+.menuRow ul {
+  @apply flex gap-[25px] flex-wrap 
+}
+
+.menuRow ul li a {
+  @apply text-[rgba(255,255,255,0.5)] text-[24px] font-medium font-montserrat 
+}
+
+.menuRow ul li a:hover {
+  @apply text-[#fff]
+}
+
+.menuBtn a {
+  @apply bg-[rgba(196,196,196,0.1)] text-[#17C2EC] text-[24px] font-bold font-montserrat px-[26px] py-[20px] rounded-[20px] shadow-[0_2.8px_2.2px_rgba(0,_0,_0,_0.034),_0_6.7px_5.3px_rgba(0,_0,_0,_0.048),_0_12.5px_10px_rgba(0,_0,_0,_0.06),_0_22.3px_17.9px_rgba(0,_0,_0,_0.072),_0_41.8px_33.4px_rgba(0,_0,_0,_0.086),_0_90px_80px_rgba(0,_0,_0,_0.12)]
+}
